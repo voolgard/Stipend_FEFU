@@ -1,0 +1,162 @@
+
+.siteDescriptionBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 360px;
+    padding-left: 200px;
+}
+
+.siteDescriptionBlock #headText {
+    padding-top: 250px;
+    padding-bottom: 33px;
+
+    position: absolute;
+    font-size: 60px;
+    font-family: "Nunito Sans";
+
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 106px;
+}
+
+.siteDescriptionBlock #description {
+    width: 703px;
+    height: 66px;
+
+    padding-top: 33px;
+    padding-bottom: 41px;
+    margin-top: 495px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: none;
+    /* or 28px */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.siteDescriptionBlock #button {
+    position: absolute;
+    width: 227px;
+    height: 64px;
+    margin-top: 602px;
+
+    background: #3B63AB;
+    border-radius: 8px;
+
+    gap: 10px;
+
+    color: white;
+    font-size: 20px;
+}
+
+.siteActivityBlock {
+    width: 1920px;
+    height: 710px;
+    margin-top: 284px;
+    background: #3B63AB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.activityItemBlock {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    width: 525px;
+    height: 550px;
+    border-radius: 20px;
+    /*padding-top: 10px;*/
+    padding-left: 10px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+    text-transform: none;
+    font-size: 56px;
+}
+
+.activityItemBlock .activityImage {
+    margin-top: 137px;
+    margin-left: 50px;
+    width: 249px;
+    height: 201px;
+}
+
+.activityItemBlock label{
+    margin-top: 38px;
+    margin-left: 50px;
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: 400;
+}
+
+.activityItemBlock span {
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.siteFaqBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+#FaqLabel {
+    font-family: "Nunito Sans";
+    align-self: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 96px;
+    line-height: 110%;
+}
+
+.FaqQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: none;
+    color: #3B63AB;
+
+    padding-bottom: 32px;
+
+}
+
+.FaqQuestion .question {
+    font-size: 56px;
+    line-height: 120%;
+    text-transform: none;
+    font-family: "Nunito Sans";
+
+}
+
+.FaqQuestion .answer {
+    padding-bottom: 40px;
+    padding-top: 32px;
+    font-size: 20px;
+    line-height: 120%;
+    color: #212121;
+    text-transform: none;
+}
+
+.note{
+    text-transform: none;
+    padding-top: 40px;
+}

@@ -1,0 +1,33 @@
+/*@font-face {*/
+/*  font-family: "Helios";*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*  src: url("Fonts/Helios.otf");*/
+/*}*/
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Nunito Sans Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+body {
+  margin: 0;
+  position: relative;
+  width: 1920px;
+  height: 2394px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans Regular', sans-serif;
+  background: #FFFFFF;
+  color: #3B63AB;
+}
+
+code {
+}
